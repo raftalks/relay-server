@@ -1,0 +1,37 @@
+{
+    "name": "raftalks/relay-server",
+    "description": "GraphQl server that works with Relay",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.5.x",
+        "webonyx/graphql-php": "^0.11.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raf",
+            "email": "7909000@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raftalks\\RelayServer\\":"src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raftalks\\RelayServer\\ServiceProvider"
+            ]
+        }
+    },
+
+    "require-dev": {
+        "illuminate/framework": "5.5.x"
+    },
+
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
