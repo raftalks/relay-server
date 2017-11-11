@@ -6,7 +6,7 @@
  * Time: 5:31 PM
  */
 
-namespace Raftalks\RelayService;
+namespace Raftalks\RelayServer;
 
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
